@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container-one {
+    background-color: #1F2937;
+    padding: 20px 100px 50px 100px;
+    
+}
+
+.header {
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    /*border: 1px solid white; /*debugging*/
+    justify-content: space-between;
+    padding: 0px 0px 80px 0px;
+}
+
+.header-logo {
+    color:white;
+    /*border: 1px solid white; /*debugging*/
+    padding:20px;
+}
+
+.header-link {
+    display:flex;
+    /*border: 1px solid white; /*debugging*/
+}
+
+.header-link a {
+    text-decoration: none;
+    color:white;
+}
+
+.header-link a:hover {
+    color: blue;
+}
+
+.link-one, .link-two, .link-three {
+    /*border: 1px solid white; /*debugging*/
+    margin-left: 20px;
+}
+
+.apple {
+    /*border: 1px solid white; /*debugging*/
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.apple-title {
+    color: white;
+    /*border: 1px solid white; /*debugging*/
+    width: 400px;
+    height:auto;
+    padding: 20px 30px 20px 30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.apple-title h1 {
+    padding: 0px 0px 20px 0px;
+}
+
+.apple-title p {
+    padding: 0px 0px 15px 0px;
+}
+
+.apple-title a {
+    text-decoration: none;
+    background-color: #3882F6;
+    padding:10px;
+    border-radius: 5px;
+    width:120px;
+    text-align: center;
+    color:white;
+}
+
+.apple-image {
+    display:flex;
+    background-color: grey;
+    width:400px;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.container-two {
+    background-color: white;
+    padding: 20px 100px 50px 100px;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    padding: 20px 100px 50px 100px;
+}
+
+
+.container-four {
+    background-color: white;
+    padding: 20px 100px 50px 100px;
+}
