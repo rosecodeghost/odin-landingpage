@@ -145,6 +145,23 @@
     padding: 20px 100px 50px 100px;
 }
 
+.cherry {
+    max-width:500px;
+    margin:auto;
+    padding:60px 0px 30px 0px;
+   
+}
+
+.quote {
+    text-align: justify;
+    padding-bottom:20px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
 
 .container-four {
     background-color: white;
